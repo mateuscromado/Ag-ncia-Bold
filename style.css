@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif !important;
+
+}
+
+.baner-p {
+
+
+    background-image: url(imagens/HERO\ BACKGROUND\ \(1\).svg);
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+}
+
+.menu-p {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+
+.menu-p  a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 30px 10px;
+}
+
+.baner-p a:hover {
+    border-bottom: 3px solid #FFDD33;
+}
+
+.menu-n {
+
+    width: 100%;
+    display: flex;
+
+    justify-content: right;
+}
+
+.cont {
+    background-color: #0F3FD3;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.cont:hover {
+    border-bottom: none !important;
+}
+
+/*Código dos titulos 1 e 2*/
+.titulos-p .titulo-1 {
+    margin-top: 50px;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+
+
+    font: normal normal normal 54px/65px Raleway;
+}
+
+.titulos-p .titulo-2 {
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    font: normal normal normal 20px/24px Raleway;
+    font-weight: lighter;
+}
+
+/*Fim do código titulos 1 e 2*/
+
+/*Começo noteboock*/
+.noteboock-p {
+    
+   display: flex;
+
+
+    justify-content: center;
+
+    padding-top: 40px;
+}
+
+/*Fim noteboock*/
+
+/*Começo das marcas*/
+
+.marcas-p{
+display: flex;
+justify-content: center;
+align-items: center;
+
+height: 300px;
+}
+
+.marcas-p img{
+    height: 110px;
+}
+
+.marcas-p :hover{
+    border-bottom: none !important;
+
+}
+/*Fim das marcas*/
+
+/*Seção de porque nós*/ 
+.porque-p{
+    height: 880px;
+    background-color: #FBFCFE ;
+
+    color: #040404;
+    text-align: center;
+}
+
+.titulo-3 {
+   padding-top: 100px;
+   font-size: 64px;
+
+
+}
+
+.titulo-4{
+    color: #7E92AC;
+}
+
+/*motivos div*/
+.motivos-i{
+    display: flex;
+    justify-content: center;
+}
+.motivos-p{
+    width: 536px;
+    height: auto;
+
+    background-color: #FFFFFF;
+    text-align: left;
+
+    width: 406px;
+    box-shadow: 0px 20px 40px #2426721C;
+    margin: 10px;
+    padding: 20px;
+    padding-top:50px ;
+
+    border-radius: 20px;
+}
+.motivos-p p{
+    color: #7E92AC;
+
+    line-height: 25px;
+}
+/*fim motivos div*/
+
+/*Fim seção de porque nós*/
