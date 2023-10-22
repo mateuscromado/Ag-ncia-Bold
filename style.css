@@ -4,7 +4,9 @@
     font-family: sans-serif !important;
 
 }
-
+button{
+    cursor: pointer;
+}
 .baner-p {
 
 
@@ -110,26 +112,30 @@ height: 300px;
 .porque-p{
     height: 880px;
     background-color: #FBFCFE ;
+    margin-bottom: -150px;
 
     color: #040404;
     text-align: center;
 }
 
 .titulo-3 {
-   padding-top: 100px;
+   padding-top: 40px;
    font-size: 64px;
 
 
 }
 
 .titulo-4{
+
     color: #7E92AC;
+
 }
 
 /*motivos div*/
 .motivos-i{
     display: flex;
     justify-content: center;
+
 }
 .motivos-p{
     width: 536px;
@@ -141,8 +147,7 @@ height: 300px;
     width: 406px;
     box-shadow: 0px 20px 40px #2426721C;
     margin: 10px;
-    padding: 20px;
-    padding-top:50px ;
+    padding: 10px;
 
     border-radius: 20px;
 }
@@ -153,4 +158,111 @@ height: 300px;
 }
 /*fim motivos div*/
 
+/*Começo do começar projeto*/
+.comecar-p{
+    background-image: url(imagens/BANNER\ IMG.svg);
+    height: 432px;
+    
+    display: flex;
+    align-items: center ;
+
+
+}
+.centralizarDiv{
+    margin: 0 auto;
+}
+.titulo-5{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 64px;
+}
+.titulo-6{
+    text-align: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: lighter;
+    margin: 20px auto;
+}
+.comecar-p form{
+    display: flex;
+    justify-content: center;
+}
+.comecar-p button{
+    background-color: #FFDD33;
+    color: #0F3FD3;
+    border-radius: 15px;
+    width: 332px;
+    height: 68px;
+
+    font-size: 20px;
+    font-weight: bolder;
+
+    border: none;
+
+
+
+}
+/*Fim do começar projeto*/
+
 /*Fim seção de porque nós*/
+
+/*Começo de beneficios*/
+.beneficios-p{
+    display: flex;
+    height: 583px;
+    justify-content: center;
+    align-items: center;
+
+    border: solid black 2px;
+}
+.letreiro-s{
+    display: flex;
+    align-items: center !important;
+    margin-left:-30px !important ;
+
+    max-width: 536px;
+    max-height: 43px;
+
+}
+.letreiro-i{
+    height: 218px;
+}
+
+.letreiro{
+    max-width: 636px;
+margin: 0 auto;
+}
+
+
+
+
+.letreiro-s p{
+    color: #7E92AC;
+    font-size: 16px;
+    text-align: left;
+    
+
+    
+}
+
+.beneficios-s form{
+    display: flex;
+    justify-content: flex-start;
+}
+.beneficios-s button{
+    background-color: #255AFF;
+    width: 332px;
+    height: 68px;
+    font-size: 20px;
+    color: #FFFFFF;
+
+    border-radius: 10px;
+    border: none;
+}
+
+.imagem img{
+    width: 812px;
+height: 583px;
+
+}
+/*Fim de beneficios*/
